@@ -1,8 +1,9 @@
 {
   "name": "ts-clipboard",
   "version": "1.0.0",
-  "description": "a copy and paste using the clipboard event api",
+  "description": "a copy programmitcally using the clipboard event api",
   "main": "dist/ts-clipboard.js",
+  "typings": "dist/ts-clipboard.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +14,6 @@
   "keywords": [
     "clipboard",
     "copy",
-    "paste"
   ],
   "author": "Greg Hedin",
   "license": "ISC",
