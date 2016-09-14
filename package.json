@@ -1,0 +1,24 @@
+{
+  "name": "ts-clipboard",
+  "version": "1.0.0",
+  "description": "a copy and paste using the clipboard event api",
+  "main": "dist/ts-clipboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gforceg/ts-clipboard.git"
+  },
+  "keywords": [
+    "clipboard",
+    "copy",
+    "paste"
+  ],
+  "author": "Greg Hedin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gforceg/ts-clipboard/issues"
+  },
+  "homepage": "https://github.com/gforceg/ts-clipboard#readme"
+}
