@@ -1,7 +1,7 @@
 {
   "name": "ts-clipboard",
   "version": "1.0.0",
-  "description": "a copy programmitcally using the clipboard event api",
+  "description": "copy text programmatically using the clipboard event api",
   "main": "dist/ts-clipboard.js",
   "typings": "dist/ts-clipboard.d.ts",
   "scripts": {
