@@ -3,9 +3,9 @@
 export class Clipboard {
   static _data: string = '';
 
-  constructor() {
+  static init() {
     window.addEventListener('copy', function (e: ClipboardEvent) {
-      e.clipboardData.setData('text/plain', this._data);
+      e.clipboardData.setData('text/plain', Clipboard._data);
       e.preventDefault()
     });
   }
@@ -15,3 +15,5 @@ export class Clipboard {
     document.execCommand('copy');
   }
 }
+
+Clipboard.init();
