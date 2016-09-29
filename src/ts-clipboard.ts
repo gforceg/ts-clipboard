@@ -2,6 +2,8 @@
 
 export class Clipboard {
   static _data: string = '';
+  // MSIE boolean
+  static POS = !!window.clipboardData;
 
   static init() {
     window.addEventListener('copy', function (e: ClipboardEvent) {
@@ -11,9 +13,14 @@ export class Clipboard {
   }
 
   static copy = (data: string): void => {
-    Clipboard._data = data;
-    document.execCommand('copy');
-  }
+    Clipboard._data = data;    
+    if (!POS) {
+      document.execCommand('copy');
+    } 
+    //  POS browsers
+    else if (!!window.clipboardData) {
+      window.clipboardData.setData(Clipboard._data);
+    }
 }
 
 Clipboard.init();
