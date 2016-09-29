@@ -14,13 +14,14 @@ export class Clipboard {
 
   static copy = (data: string): void => {
     Clipboard._data = data;    
-    if (!POS) {
+    if (!Clipboard.POS) {
       document.execCommand('copy');
     } 
     //  POS browsers
     else if (!!window.clipboardData) {
       window.clipboardData.setData(Clipboard._data);
     }
+  }
 }
 
 Clipboard.init();
