@@ -8,7 +8,7 @@ export class Clipboard {
   static init() {
     window.addEventListener('copy', function (e: ClipboardEvent) {
       e.clipboardData.setData('text/plain', Clipboard._data);
-      e.preventDefault()
+      // e.preventDefault() // this disables 'ctrl + c' 
     });
   }
 

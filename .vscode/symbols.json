@@ -1,1 +1,1 @@
-{"symbols":{"Clipboard":{"hasNamespace":false,"type":0,"moduleName":"ts-clipboard.d","relativePath":"dist/ts-clipboard.d"}},"files":{"src/ts-clipboard.ts":"2016-09-29T20:09:57.924Z","dist/ts-clipboard.d.ts":"2016-09-29T20:10:19.794Z"}}
+{"symbols":{"Clipboard":{"hasNamespace":false,"type":0,"moduleName":"ts-clipboard","relativePath":"src/ts-clipboard"}},"files":{"src/ts-clipboard.ts":"2016-09-29T20:15:20.572Z","dist/ts-clipboard.d.ts":"2016-09-29T20:10:19.794Z"}}
