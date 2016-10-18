@@ -2,3 +2,4 @@ src
 node_modules
 *.ts
 node_modules/
+tsconfig.json
