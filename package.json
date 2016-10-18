@@ -1,8 +1,8 @@
 {
   "name": "ts-clipboard",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "copy text programmatically using the clipboard event api",
-  "main": "dist/ts-clipboard.js",
+  "main": "./ts-clipboard.js",
   "typings": "dist/ts-clipboard.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -4,12 +4,12 @@
 		"target": "es5",
 		"noImplicitAny": false,
 		"sourceMap": true,
-		"declaration": true,
-		"outDir": "dist",
-		"rootDir": "src"
+		"declaration": true
 	},
+	"files": [
+		"ts-clipboard.ts"
+	],
 	"exclude": [
-		"node_modules",
-		"dist"
+		"node_modules"
 	]
 }
