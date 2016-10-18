@@ -3,7 +3,7 @@
   "version": "1.0.10",
   "description": "copy text programmatically using the clipboard event api",
   "main": "./ts-clipboard.js",
-  "typings": "dist/ts-clipboard.d.ts",
+  "typings": "./ts-clipboard.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
