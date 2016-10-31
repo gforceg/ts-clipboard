@@ -4,3 +4,4 @@ npm-debug.log
 *.js
 *.d.ts
 *.js.map
+.vscode/
