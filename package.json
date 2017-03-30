@@ -1,6 +1,6 @@
 {
   "name": "ts-clipboard",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "copy text programmatically using the clipboard event api",
   "main": "./ts-clipboard.js",
   "typings": "./ts-clipboard.d.ts",
