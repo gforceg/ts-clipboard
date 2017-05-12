@@ -16,7 +16,7 @@
     "copy"
   ],
   "author": "Greg Hedin",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gforceg/ts-clipboard/issues"
   },
