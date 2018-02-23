@@ -23,6 +23,7 @@ export class Clipboard {
     //  POS browsers
     else if (!!window['clipboardData']) {
       window['clipboardData'].setData('Text', Clipboard._data);
+      Clipboard._data = null;
     }
   }
 }
