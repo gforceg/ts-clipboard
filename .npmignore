@@ -1,5 +1,5 @@
 src
-*.ts
+!*.ts
 !*.d.ts
 node_modules/
 tsconfig.json
